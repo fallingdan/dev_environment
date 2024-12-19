@@ -3,3 +3,8 @@ shell = { program = "C:/Windows/System32/wsl.exe", args = ["--cd ~"]}
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+
+[keyboard]
+bindings = [
+	{key = "Space", mods = "Control", chars = "\u0000"},
+]
